@@ -1,6 +1,6 @@
 {
   "name": "react-native-oauth",
-  "version": "2.1.15",
+  "version": "2.1.16",
   "author": "Ari Lerner <ari@fullstack.io> (https://fullstackreact.com)",
   "description": "An oauth manager for dealing with the complexities of oauth",
   "main": "./react-native-oauth.js",
@@ -29,18 +29,6 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
-  },
-  "rnpm": {
-    "commands": {
-      "prelink": "node_modules/react-native-oauth/bin/prepare.sh",
-      "postlink": "node_modules/react-native-oauth/bin/cocoapods.sh"
-    },
-    "ios": {
-      "project": "ios/OAuthManager.xcodeproj"
-    },
-    "android": {
-      "packageInstance": "new OAuthManagerPackage()"
-    }
   },
   "dependencies": {
     "invariant": "^2.2.1",
